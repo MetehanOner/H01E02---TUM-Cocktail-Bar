@@ -1,4 +1,4 @@
-package de.in.tum.ase;
+package de.tum.in.ase;
 
 public class Bar {
 
