@@ -17,7 +17,7 @@ public class Bar {
         Scanner in = new Scanner(System.in);
         System.out.println("What would you like to order?");
         String order = in.nextLine();
-        System.out.println("Thank you! You ordered: " + order);
+        System.out.println("Thank you! You ordered: " + order +".");
 
 
     }
