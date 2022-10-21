@@ -24,17 +24,9 @@ public class Bar {
 
     public static void translatedMessage() {
         //TODO 3: Print out the former developer's message translated in to the correct letters
+        String original = "\u0045\u0058\u005A\u0045\u004C\u004C\u0045\u004E\u0054";
+        System.out.println(original);
 
-        String myString="\\0x0045\\0x0058\\0x005A\\0x0045\\0x004C\\0x004C\\0x0045\\0x004E\\0x0054";
-
-        String str = myString.split(" ")[0];
-        str = str.replace("\\","");
-        String[] arr = str.split("u");
-        String text = "";
-        for(int i = 1; i < arr.length; i++){
-            int hexVal = Integer.parseInt(arr[i], 16);
-            text += (char)hexVal;
-        }
     }
 
     public static void main(String[] args) {
